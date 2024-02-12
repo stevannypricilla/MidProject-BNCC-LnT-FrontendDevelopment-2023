@@ -1,0 +1,269 @@
+header {
+    background-color: #0054a5;
+    padding: 15px;
+    position: sticky; top:0; left:0;
+    
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #cdd8dd;
+}
+
+body {
+    margin: 0;
+    background-color: #cdd8dd;
+}
+
+nav {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #0054a5;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav a {
+    color: #cdd8dd;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a:hover {
+    background-color: #034787;
+    color: #ffffff;
+}
+
+nav li {
+    float: left;
+}
+
+.active {
+    background-color: #034787;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #cdd8dd;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 8px;
+    border: 2px solid;
+    margin-left: 20px;
+}
+
+button:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 8px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background-color: #0054a5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+header {
+    background-color: #0054a5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px; 
+}
+
+profile h1 , h2 profile {
+    color: #ffff;
+}
+
+footer {
+    background-color: #0054a5;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.box {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0 auto; 
+    margin-top: 50px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.box h2 {
+    margin: auto;
+    justify-content: center;
+}
+
+.box p {
+    margin: 10px 0; 
+    line-height: 60px;
+}
+
+main h2{
+    line-height: 60px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    background-size: cover;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.social-media a:hover {
+    opacity: 0.8;
+}
+
+.course-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .course-box {
+    width: 30%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .course-box h2 {
+    margin-top: 0;
+  }
+  
+  .enroll-button {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .enroll-button:hover {
+    background-color: #0056b3;
+  }
+
+  .progress-container {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .progress {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progress span {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    bottom: -1px;
+    right: -1px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
